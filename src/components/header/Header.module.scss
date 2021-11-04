@@ -1,0 +1,36 @@
+.header__wrapper {
+  position: absolute;
+  background: transparent;
+  justify-content: center;
+  padding: 17px 0 17px;
+  height: 70px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background: transparent;
+
+  li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    &:hover{
+      color: black;
+    }
+
+  }
+
+  .long_text {
+    color: white;
+    font: 26px bold;
+  }
+}
+
+
