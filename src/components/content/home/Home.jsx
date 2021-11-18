@@ -8,6 +8,8 @@ const Home = () => {
         <div className={styles.home__wrapper}>
             <div className={styles.home__container}>
                 <FeaturedPosts/>
+                <div className={styles.section__title}>Most Recent</div>
+                <hr/>
                 <MostRecent/>
             </div>
         </div>

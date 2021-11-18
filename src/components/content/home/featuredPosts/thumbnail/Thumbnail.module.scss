@@ -1,14 +1,82 @@
-
+@import '../../../../UI/MyButtton.module';
 
 .featured__thumbnail {
-  height: 280px;
+  max-height: 280px;
   width: 100%;
   margin: 10px;
   border-radius: 3px;
   background-image: url("https://uploads-ssl.webflow.com/6182679b9ab00d5aacf43d18/6182679c9ab00d402ff43d64_photo-1443926818681-717d074a57af.jpg");
   background-size: cover;
-  button {
-    background: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
+
+  .btn {
+    background: #dd783f;
+    border-radius: 2px;
+    white-space: pre;
+    width: 80px;
+    padding: 5px;
+    margin: 15px;
+    font: 14px normal;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    text-align: center;
   }
+
+
+  .featured__text {
+    height: 200px;
+    width: auto;
+    background: transparent;
+    margin-top: 20px;
+    padding: 60px 20px 30px 20px;
+
+    .featured__title {
+      width: 100%;
+      background: transparent;
+      color: white;
+      font: 32px bold;
+      margin-bottom: 4px;
+
+    }
+
+    .featured__description {
+      width: 100%;
+      background: transparent;
+      color: rgba(247, 247, 247, 0.72);
+      font: 16px normal;
+    }
+
+    .div__block {
+      background: transparent;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .date {
+        color: rgba(247, 247, 247, 0.72);
+      }
+
+
+      .author {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(247, 247, 247, 0.72);
+
+        img {
+          height: 40px;
+          border-radius: 20px;
+          margin: 5px 5px 0 0;
+
+        }
+      }
+
+    }
+  }
+
+
 }

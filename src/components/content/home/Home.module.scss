@@ -1,9 +1,10 @@
 .home__wrapper {
   width: 100%;
   background: transparent;
+  padding-bottom: 89px;
 
   .home__container {
-    background: #dd783f;
+    background: transparent;
     width: 800px;
     margin: 0 auto;
     min-height: 600px;
@@ -11,6 +12,17 @@
     flex-direction: column;
     align-items: center;
 
+    .section__title {
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      background: gray;
+      width: 15rem;
+      height: 0.1px;
+      margin: 16px auto;
+    }
   }
 
 

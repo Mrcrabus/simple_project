@@ -1,7 +1,12 @@
+@mixin btn ($width, $height, $font) {
+  width: $width;
+  height: $height;
+  font: $font;
+
+}
+
 .MyBtn {
-  font: 20px normal;
-  width: 160px;
-  height: 40px;
+  @include btn(160px, 40px, 20px normal);
   background: #dd783f;
   padding: 6px 15px;
   display: flex;

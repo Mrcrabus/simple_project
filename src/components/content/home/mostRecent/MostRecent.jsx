@@ -1,9 +1,16 @@
 import React from 'react';
+import BlogThumbnail from "./blogThumbnail/BlogThumbnail";
+import styles from './MostRecent.module.css'
 
 const MostRecent = () => {
     return (
-        <div>
-            Most Recent
+        <div className={styles.mostRecent}>
+
+            <BlogThumbnail/>
+            <BlogThumbnail/>
+            <BlogThumbnail/>
+
+
         </div>
     );
 };
