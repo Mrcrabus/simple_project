@@ -1,4 +1,35 @@
 .footer {
   display: flex;
-  background: url("../../../src/access/footer-bg.jpg");
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, rgba(35, 47, 56, 0.47) 0%, rgba(57, 45, 45, 0.4) 35%),
+  15% 25% / cover no-repeat url("../../../src/access/footer-bg.jpg");
+  outline: 1px solid rgba(0, 0, 0, 0.47);
+  background-size: cover;
+  height: 500px;
+  padding-top: 63px;
+
+
+
+  .container {
+
+
+    hr {
+      width: 300px;
+    }
+
+    .section__heading {
+      color: white;
+      text-align: center;
+    }
+
+    .form {
+      display: flex;
+      justify-content: center;
+
+    }
+  }
+
 }
+
+

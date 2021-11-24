@@ -1,0 +1,24 @@
+.form__container {
+  display: flex;
+
+
+  input {
+    height: 50px;
+    width: 500px;
+    padding: 0 20px;
+
+
+  }
+
+  .send__email {
+    width: 150px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    padding-top: 15px;
+
+
+  }
+
+}
+
