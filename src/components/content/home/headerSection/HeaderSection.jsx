@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeaderSection.module.css'
-import MyButton from "../UI/MyButton";
+import MyButton from "../../../UI/MyButton";
 
 const HeaderSection = () => {
     return (

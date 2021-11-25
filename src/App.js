@@ -1,17 +1,24 @@
 import React from 'react';
 import Header from "./components/header/Header";
-import HeaderSection from "./components/headerSection/HeaderSection";
 import Footer from "./components/footer/Footer";
 import Home from "./components/content/home/Home";
-import Navbar from "./components/content/navbar/Navbar";
+import {Route, Routes} from "react-router-dom";
+import Categories from "./components/content/categories/Categories";
+import About from "./components/content/about/About";
 
 const App = () => {
     return (
         <div>
             <Header/>
-            <HeaderSection/>
-            <Navbar/>
-            <Home/>
+            <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/categories' element={<Categories/>}/>
+                <Route path='/about' element={<About/>}/>
+
+
+            </Routes>
+
+
             <Footer/>
         </div>
     );

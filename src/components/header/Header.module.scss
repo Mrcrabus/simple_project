@@ -18,11 +18,16 @@
 
   li {
     display: inline-block;
-    padding: 10px 20px;
-    color: white;
-    text-transform: uppercase;
-    &:hover{
-      color: black;
+
+    }
+    a{
+      text-decoration: none;
+
+      padding: 10px 20px;
+      color: white;
+      text-transform: uppercase;
+      &:hover{
+        color: black;
     }
 
   }

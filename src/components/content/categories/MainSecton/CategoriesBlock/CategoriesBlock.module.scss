@@ -1,0 +1,18 @@
+.categories__block {
+  background: url('../../../../../access/categories_block.jpg');
+  background-size: cover;
+  min-width: 280px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .categories__name {
+    color: #f7f7f7;
+    text-shadow: 1px 1px black;
+    font: 23px bold;
+
+  }
+
+}
