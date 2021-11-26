@@ -5,6 +5,7 @@ import Home from "./components/content/home/Home";
 import {Route, Routes} from "react-router-dom";
 import Categories from "./components/content/categories/Categories";
 import About from "./components/content/about/About";
+import Contact from "./components/content/contact/Contact";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/categories' element={<Categories/>}/>
                 <Route path='/about' element={<About/>}/>
+                <Route path='/contact' element={<Contact/>}/>
 
 
             </Routes>

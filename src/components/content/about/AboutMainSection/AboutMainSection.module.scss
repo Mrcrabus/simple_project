@@ -1,0 +1,25 @@
+.about__main__section {
+  height: auto;
+  padding: 62px;
+
+  .columns {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+
+    .text {
+      text-align: left;
+      max-width: 600px;
+    }
+
+
+    img {
+      background-size: cover;
+      margin-bottom: 10px;
+      max-width: 400px;
+      padding: 20px;
+
+    }
+  }
+}
