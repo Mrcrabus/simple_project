@@ -19,16 +19,23 @@
   li {
     display: inline-block;
 
-    }
-    a{
-      text-decoration: none;
 
-      padding: 10px 20px;
-      color: white;
-      text-transform: uppercase;
-      &:hover{
-        color: black;
+  }
+
+
+  a {
+    text-decoration: none;
+
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+
+
+
+    &:hover {
+      color: black;
     }
+
 
   }
 
@@ -36,6 +43,10 @@
     color: white;
     font: 26px bold;
   }
+}
+
+.active {
+  color: black;
 }
 
 

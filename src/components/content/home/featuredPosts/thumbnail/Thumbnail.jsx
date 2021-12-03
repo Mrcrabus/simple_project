@@ -1,25 +1,26 @@
 import React from 'react';
 import styles from "./Thumbnail.module.css";
-import avatar from '../../../../../access/img_avatar.png'
+import {Link} from "react-router-dom";
 
 
-const Thumbnail = () => {
+const Thumbnail = ({title, userImg, img, post}) => {
     return (
-        <div className={styles.featured__thumbnail}>
+
+        <div className={styles.featured__thumbnail} style={{background: userImg}}>
 
             <div>
-                <div className={styles.btn}>Click Me</div>
+                <div className={styles.btn}><Link to={`/categories/${post.id}`}>Click Me</Link></div>
             </div>
             <div className={styles.featured__text}>
                 <div className={styles.featured__title}>
                     The Road Ahead
                 </div>
                 <div className={styles.featured__description}>
-                    Once of year, go someplace you've never been before.
+                    {title}
                 </div>
                 <div className={styles.div__block}>
                     <div className={styles.author}>
-                        <img src={avatar} alt="..."/>
+                        <img src={img} alt="..."/>
                         <div>Will Winston</div>
                     </div>
                     <div className={styles.date}>
